@@ -54,7 +54,7 @@ public int show_ID()
                     s+= patient[c].name+"\n";
             }
         } catch(NullPointerException e){
-           // JOptionPane.showMessageDialog(frame, "No patients assigned.");
+//            JOptionPane.showMessageDialog(frame, "No patients assigned.");
         }
         return s;
     }
